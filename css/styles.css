@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: oswald;
+}
+
+body{
+    background-color: rgb(128, 122, 122);
+    color: rgba(255, 255, 255, 0.767);
+    background-image: linear-gradient(to right bottom, #ac9393, #957f7f, #7f6c6c, #6a5959, #554747, #574142, #593c3c, #5a3637, #713a3b, #883e3f, #a04142, #b74444);
+
+}
+
+a{
+    color: rgb(252, 243, 243);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.title{
+    width: 110%cm;
+    height: 100px;
+    font-family: oswald;
+    font-size: 60px;
+}
+
+.title h3{
+    width: 100%;
+    text-align: center;
+    color: rgb(109, 30, 30);
+}
+
+header{
+    width: 100%;
+    background: rgb(87, 65, 65);
+    height: 70px;
+    font-size: 245%;
+}
+
+.ancho{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    float: left;
+}
+
+
+
+.logomedidas{
+    width: 70px ;
+    height: 70px;
+    
+    
+   
+}
+
+
+nav{
+    width: 63%;
+    height: 70px;
+    display: flex;
+    float: right;
+    padding-block: 1;
+   
+    
+}
+nav ul li{
+    display: inline;
+    padding: 12px;
+}
+
+nav ul li a{
+    color:whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: oswald;
+    
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(fuentes/static/Oswald-Regular.ttf);
+}
+
+/* fin del encabezado con css */
+
+.imgLogoLol{
+    mix-blend-mode: darken;
+    filter: brightness(0.5);
+}
+
+.imgLogoValorant{
+    mix-blend-mode: darken;
+}
+
+
+.tabla1{
+    width: 100%;
+    height: 85px;
+    font-size: 27px;
+}
+
+.tabla1:hover{
+    color: rgb(109, 30, 30);
+}
+
+.tabla2{
+    width: 1700px;
+    height: 85px;
+}
+
+.tablaranking {
+    width: 100%;
+    height: 85;
+}
+
+.nuestrosjuegos table{
+    margin: 0 auto;
+}
+
+.div-main{
+    text-align: center;
+}
+
+.jugarya1{
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(87, 65, 65);
+}
+
+.logo-footer{
+    width: 70px ;
+    height: 70px;
+    
+
+}
+
+.nav-footer{
+    width: 70%;
+    height: 70px;
+    padding-block: 1;
+    margin: auto;
+}
+
+.nav-footer ul li{
+    display: inline;
+    padding: 10px;
+}
+
+.nav-footer ul li a{
+    color:whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: oswald;
+    position: static;
+}
+
+.tableRC{
+    width: 1000px;
+    height: 85;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    background: rgb(87, 65, 65);
+    height: 353px;
+    font-size: 245%;
+}
+
+
+.social{
+    margin: 50px;
+    width: 118%;
+}
+
+.social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a{
+    margin: 0 30px;
+}
+
+.links a:hover{
+    color: black;
+}
+.h5 a{
+    font-size: 100%;
+    width: 42.5%;
+    height: 70 px;
+    display: flex;
+    float: right;
+}
+
+.h5 a:hover {
+    color: rgb(247, 0, 0);
+}
+
+
+/* CONTACTO */
+
+.formContacto{
+    text-align: center;
+    font-size: 27px;
+    color: rgb(109, 30, 30);
+}
+
+.formContacto input{
+    font-size: xx-large;
+    margin: 10px;
+    padding: revert;    
+}
+
+
+/* QUIENES SOMOS  */
+
+.contenidoQuienesSomos{
+    margin: 100px;
+    text-align: center;
+    font-size: xx-large ;
+}
+
+.contenidoQuienesSomos h4{
+   color:rgb(109, 30, 30) ;
+}
+
+/* ESPORTS */
+
+.contenidoEsports{
+    margin: 100px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.contenidoEsports a{
+    font-size: 2cm;
+    color: rgb(127, 15, 175);
+}
+
+.imgEsports{
+    width: 100%;
+    height: 625px;
+    padding: 5px;
+}
+
+.videoEsports{
+    margin: 20px;
+    padding: 20px;
+}
+
+
+/* AYUDA AL JUGADOR */
+
+.imgSoporte{
+    width: 100%;
+    height: 625px;
+    padding: 5px;
+}
+
+.contenidoSoporte{
+    margin: 100px;
+    text-align: center;
+    font-size: xx-large;
+    padding: 10px;
+    color: rgb(109, 30, 30);
+}
+
+.contenidoSoporte .as :hover{
+    font-size: 27px;
+    margin: 100px;
+    padding: 0;
+    color: black;
+}
+
+
+/* INICIA SESION */
+
+.formLogin{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(109, 30, 30);
+}
+
+.formLogin input{
+    font-size: xx-large;
+    margin: 20px;
+    padding: revert;
+}
+
+
+.formLogin h3{
+    font-size: 50px;
+    color: rgb(109, 30, 30);
+}
